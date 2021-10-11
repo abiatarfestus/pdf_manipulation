@@ -1,0 +1,7 @@
+env
+pdfvenv
+.vscode
+.env
+*.log
+*.pot
+*.pyc
