@@ -28,7 +28,7 @@ EMAIL_PASSWORD = env.str('EMAIL_PASSWORD') #os.environ.get('EMAIL_PASS')
 
 staffs = {'abiatar.pdf':'Festus.Abiatar@mha.gov.na', 'festus.pdf':'abiatarfestus@outlook.com', 'hanghome.pdf':'Hesekie.Hanghome@mha.gov.na','uugwanga.pdf':'Hileni.Uugwanga@mha.gov.na', 
 'iita.pdf':'Laili.Iita@mha.gov.na', 'alugongo.pdf':'Hesekie.Hanghome@mha.gov.na', 'shimuningeni.pdf':'Selma.Shimuningeni@mha.gov.na',
-'kashikuka.pdf.pdf':'Elizabeth.Kashikuka@mha.gov.na', 'nuuyoma.pdf':'Hilkka.Nuuyoma@mha.gov.na', 'iyagaya.pdf':'Bertha.Iyagaya@mha.gov.na',
+'kashikuka.pdf':'Elizabeth.Kashikuka@mha.gov.na', 'nuuyoma.pdf':'Hilkka.Nuuyoma@mha.gov.na', 'iyagaya.pdf':'Bertha.Iyagaya@mha.gov.na',
 'shikulo.pdf':'Josephine.Shikulo@mha.gov.na', 'ashipala.pdf':'Teofilia.Ashipala@mha.gov.na', 'aiyambo.pdf':'Uilika.Aiyambo@mha.gov.na',
 'shimooshili.pdf':'Letitia.Shimooshili@mha.gov.na', 'kaapanda.pdf':'Emilia.Kaapanda@mha.gov.na', 'amadhila.pdf':'Isak.Amadhila@mha.gov.na',
 'cardos.pdf':'Anna.Cardos@mha.gov.na', 'ndundu.pdf':'Stefanus.Ndundu@mha.gov.na', 'kashuupulwa.pdf':'Ndeshihafela.Kashuupulwa@mha.gov.na',
