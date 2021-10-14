@@ -3,16 +3,14 @@ import fitz
 from send_email import staffs
 from make_dir import path
 
-# print(fitz.__doc__)
 #https://pymupdf.readthedocs.io/en/latest/faq.html#how-to-split-single-pages
 
-#----SPLIT PAGES----
 
-src = fitz.open(os.path.join(path, 'payslips.pdf'))
 
 def extract_payslips():
+    src = fitz.open(os.path.join(path, 'payslips.pdf'))
     num = 1
-    print('Splitting pdf...')
+    print('Splitting and extracting pdf...')
     for pg in src:  # for each page in input
         r = pg.rect  # input page rectangle
 
@@ -47,7 +45,7 @@ def extract_payslips():
             num +=1
         finally:
             new_doc.close()
-    print('Splitting done!')
-    print('Page extraction done!')
+    print('Splitting and extraction done!')
+    return
 
-extract_payslips()
+# extract_payslips()

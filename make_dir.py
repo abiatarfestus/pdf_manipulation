@@ -11,6 +11,7 @@ def create_dir():
     if not os.path.isdir(path):
         try: 
             os.mkdir(path) 
+            print(f'New directory {directory} created in {parent_dir}')
         except OSError as error: 
             print(error)
     return
