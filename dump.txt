@@ -1,0 +1,23 @@
+
+    # r1_text = pg.get_textpage(clip=r1)
+    # print(f'R1 Text: {r1_text}')
+    # print(f'ashipala in: {r1_text.search("ashipala")}')
+    # print(f'Ashipala in: {r1_text.search("Ashipala")}')
+    # print('*'*50)
+    # r2_text = pg.get_textpage(clip=r1)
+    # print(f'R2 Text: {r2_text}')
+    # print(f'iipinge in: {r1_text.search("iipinge")}')
+    # print(f'Iipinge in: {r1_text.search("Iipinge")}')
+    # print('*'*50)
+
+
+    r1_text = pg.get_text(clip=r1)
+    print(f'R1 Text: {r1_text}')
+    print(f'ashipala in: {"Iipinge" in r1_text}')
+    print(f'Ashipala in: {"Ashipala" in r1_text}')
+    print('*'*50)
+    r2_text = pg.get_text(clip=r2)
+    print(f'R2 Text: {r2_text}')
+    print(f'iipinge in: {"Ashipala" in r2_text}')
+    print(f'Iipinge in: {"Iipinge" in r2_text}')
+    print('*'*50)
